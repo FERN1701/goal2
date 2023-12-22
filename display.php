@@ -1,5 +1,5 @@
 <?php
-session_start();
+include "session.php";
 
 // Get names from the session array
 $names = isset($_SESSION['names']) ? $_SESSION['names'] : array();
